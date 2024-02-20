@@ -1,0 +1,251 @@
+:root {
+    --yasil: #a1c927;
+    --qirmizi: #fd634d;
+    --qara: #333;
+
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    background: url(./../img/headerbg.jpg) 60%/cover;
+    text-align: center;
+}
+
+
+nav, #title{
+    position: absolute;
+    width: 100%;
+    padding: 40px 50px;
+}
+
+
+#title {
+    bottom: 17vh;
+}
+
+h1 {
+    font: 2em "Myriad Pro";
+    text-transform: uppercase;
+}
+
+h2 {
+    font: 300 2em 'Open Sans';
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font: 1.5em 'Open Sans';
+    padding: 20px 0 30px 0;
+}
+
+h5 {
+    font: .9em "Myriad Pro";
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+h6 {
+    font: .9em 'Montserrat';
+    text-transform: uppercase;
+
+}
+
+p {
+    font: .9em 'Open Sans';
+}
+
+
+
+#menu li a{
+    font: 13px "Avenir Next Rounded Std";
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.bgag {background-color: #fff;}
+.bgqirmizi {background-color: var(--qirmizi); }
+.bgyasil {background-color: var(--yasil); }
+.bgqara {background-color: var(--qara);}
+
+.txtag {color: #fff;}
+.txtqirmizi {color: var(--qirmizi); }
+.txtyasil {color: var(--yasil); }
+
+.article4 {
+    padding: 80px 0 ;
+    text-align: center;
+}
+
+.article4 article {
+    padding: 40px 10px ;
+    
+}
+
+.article4 article i {
+    font-size: 3em;
+}
+
+
+
+.vh50 {min-height: 50vh;}
+
+#fitnessfirst {
+    background: url(../img/img1.jpg) center/cover;
+}
+
+#yourbody {
+    background: url(../img/img2.jpg) center/cover;
+}
+
+#lifestyle {
+    background: url(../img/img3.jpg) center/cover; 
+}
+
+#health {
+    background: url(../img/img4.jpg) center/cover;
+}
+
+#grape {
+    background: url(../img/img5.jpg) center/cover;
+}
+
+#mango {
+    background: url(../img/img6.jpg) center/cover;
+}
+
+#sekil {
+    background: url(../img/img7.jpg) center/cover;
+}
+
+.footerimage {
+    position: relative;
+    height: 100vh;
+    background: url(../img/img7.jpg) center/cover;
+}
+
+
+.footerimage > h2{
+    position: absolute;
+    top: 5vh;
+    left: 8vw;
+    right: 8vw;
+    font: 1.1em 'Open Sans';
+    color: #fff;
+} 
+
+.footerimage > p {
+    position: absolute;
+    top: 15vh;
+    left: 7vw;
+    right: 6vw;
+    font: .6em 'Open Sans';
+    color: #fff;
+}
+
+
+.foot .row {
+    margin: 30px 0px 0 0;
+    text-align: center;
+}
+
+article h4{
+    font: .9em 'Open Sans';
+    color: #fff;
+    padding: 29px 10px;
+}
+
+.foot article p {
+    font: .9em 'Open Sans';
+    color: #8297a7;
+    padding: 0 10px;
+}
+
+.foot article i {
+    font-size: 2em;
+    padding: 0 10px;
+}
+
+
+.fa-square-facebook:hover {
+    color: blue;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.fa-linkedin:hover {
+    color: blue;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        text-align: initial;
+    }
+
+    #menu{
+        float: right;
+    }
+
+    #menu li {
+        display: inline-block;
+        padding: 0 2vw;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    #title {
+        width: initial;
+        left: 7vw;
+        text-align: right;
+    }
+
+
+    .container {
+        max-width: 1180px;
+        margin: auto;
+    }
+
+    .row::after {display: table; content: ''; clear: both;}
+
+    .article4 {text-align: initial;}
+
+    .col25 { width: 25%; }
+
+    .col33 {width: 33.33%;}
+    .col66 {width: 66.66%;}
+
+    .fleft {float: left;}
+    .fright {float: right;}
+    
+    /* .footerimage::after {display: table; content: ''; clear: both;}
+
+
+    .footerimage h2{
+        position: absolute;
+        margin: 200px 250px ;
+        font: 2.6em 'Open Sans';
+    }
+    
+    .footerimage > p {
+        position: absolute;
+        margin: 250px 350px;
+        font: .8em 'Open Sans'; 
+    } */
+
+
+    .foot .row article {
+        text-align: left;
+    }
+}
