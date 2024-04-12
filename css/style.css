@@ -1,0 +1,141 @@
+:root {
+    --green: #a1c927;
+    --red: #fd634d;
+}
+header {
+    position: relative;
+    background: url(../img/headerbg.jpg) 60%/cover ;
+    height: 100vh;
+    text-align: center;
+
+}
+nav {
+    padding: 40px 50px;
+}
+nav, #title {
+    position: absolute;
+    width: 100%;
+}
+#title { bottom: 17vh ;}
+#menu li  a {
+    font: .9em "Avenir Next Rounded Std" ;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+h1 {
+    font: 2em "Myriad Pro";
+    text-transform: uppercase;
+}
+h2 {
+    font: 2em 'Open Sans';
+    text-transform: uppercase;
+}
+h3 {
+    font: 1.5em 'Open Sans';
+    padding: 20px 0 30px 0;
+}
+h5 {
+    font: 1em "Myriad Pro";
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+h6 { 
+    font: .8em 'Montserrat';
+    text-transform: uppercase;
+}
+
+.bgwhite { background-color: white;}
+.bggreen {background-color: var(--green);}
+.bgred {background-color: var(--red);}
+.textwhite {color: white;}
+.textgreen {color: var(--green);}
+.textred {color: var(--red);}
+
+.article4 { padding: 80px 0; text-align: center; }
+.article4 article { padding: 40px 10px;}
+a.textwhite { display: inline-block; padding-top: 20px;}
+.article4 article i {  font-size: 3em; }
+
+.center { text-align: center; }
+.artpadding { padding: 0px 40px; }
+.vh50 { min-height: 50vh;}
+article p, a { font: .9em "Proxima Nova" ;}
+
+.lefti { position: absolute; top: 67px; right: 50px; font-size: 2em;}
+.padding { padding: 20px 20px 0 20px;}
+
+div .bgwhite { position: relative;}
+div#icons i {
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+}
+div#inputs input, button {
+    height: 48px;
+    margin: 10px 5px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+::placeholder{text-align: center;}
+
+
+
+
+#fitnessfirst { background: url(../img/fitnessfirst.jpg) 30%/cover;}
+#yourbody {background: url(../img/yourbody.jpg) center/cover;}
+#lifestyle {background: url(../img/lifestyle.jpg) top right/cover;}
+#summeroffun {background: url(../img/summeroffun.jpg) center/cover;}
+#yourself { background: url(../img/yourself.jpg) center/cover;}
+#eatinghabits {background: url(../img/eatinghabits.jpg) center/cover;}
+
+#footerbg {background: url(../img/footerbg.jpg) top/cover; height: 100vh;}
+#secondbg {background-color: #0d1119; height: 100vh;}
+.font {
+    font: .9em "Open Sans";
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+#title2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10px;
+}
+
+@media only screen and (min-width: 768px){
+    h1 { font-size: 2.5em ;}
+    h2 {font-size: 2.5em;}
+    header {text-align: initial;}
+    #menu { float: right;}
+    nav ul li {
+        display: inline-block;
+        padding: 0 2vw;
+    }
+    #title {
+        width: initial;
+        left: 7vw;
+        text-align: right;
+    }
+    .container {
+        max-width: 1180px;
+        margin: auto;
+    }
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .article4 { text-align: initial;}
+    .col25 {width: 25%;}
+    .fleft {float: left;}
+    .fright {float: right;}
+    .col33 {width: 33.33%;}
+    .col66 {width: 66.66%;}
+    div input, button { float: left;}
+}
