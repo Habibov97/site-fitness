@@ -1,9 +1,10 @@
-<i><b>Fitness Website Template<i><b>
+<i><b>Fitness Website Template</i></b>
 
+To visit : https://habibov97.github.io/site-fitness/
 
 This is a beginner's project for a fitness website template, aimed at providing users with information and resources related to fitness, body, lifestyle, and eating habits. The template is designed with simplicity in mind, using limited knowledge in web development.
 
-<i><b>Features<i><b>
+<i></b>Features<i></b>
 
 Fitness Section: Explore tips, exercises, and routines to improve your fitness levels.
 Body Section: Learn about body types, anatomy, and how to achieve your desired physique.
