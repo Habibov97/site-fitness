@@ -35,6 +35,11 @@ h3 {
     font: 1.5em 'Open Sans';
     padding: 20px 0 30px 0;
 }
+
+h4 {
+    font: 1em "Myriad Pro";
+}
+
 h5 {
     font: 1em "Myriad Pro";
     letter-spacing: 3px;
@@ -72,13 +77,8 @@ div#icons i {
     padding: 10px;
     color: white;
 }
-div#inputs input, button {
-    height: 48px;
-    margin: 10px 5px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-}
+
+
 ::placeholder{text-align: center;}
 
 
@@ -138,4 +138,6 @@ div#inputs input, button {
     .col33 {width: 33.33%;}
     .col66 {width: 66.66%;}
     div input, button { float: left;}
+
+    #secondbg {background-color: #0d1119; height: 50vh;}
 }
