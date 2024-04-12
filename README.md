@@ -7,8 +7,11 @@ This is a beginner's project for a fitness website template, aimed at providing 
 <i><b>Features</i></b>
 
 Fitness Section: Explore tips, exercises, and routines to improve your fitness levels.
+
 Body Section: Learn about body types, anatomy, and how to achieve your desired physique.
+
 Lifestyle Section: Discover lifestyle habits and practices to support your fitness journey.
+
 Eating Habits Section: Access information on nutrition, meal planning, and healthy eating habits.
 
 <i><b>USAGE</b></i>
